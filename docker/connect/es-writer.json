@@ -1,0 +1,9 @@
+{
+  "name": "es-writer",
+  "config": {
+    "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
+    "connection.url": "http://elasticsearch:9200",
+    "type.name": "kafka-connect",
+    "topics": "test.public.test"
+  }
+}
